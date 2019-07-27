@@ -8,9 +8,9 @@
     puts "hola de Rake!"
   end
  end
-# task :environment do
-#   require_relative './config/environment'
-# end
+task :environment do
+  require_relative './config/environment'
+end
 # namespace :db
 #   desc 'migrate changes to your database'
 #   task :migrate => :environment do
